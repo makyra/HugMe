@@ -1,0 +1,14 @@
+{
+  "name": "hugme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Makyra Kim",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^36.5.0"
+  }
+}
