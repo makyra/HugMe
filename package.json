@@ -2,13 +2,15 @@
   "name": "hugme",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "electron-src/index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "cd react-ui && npm run build"
   },
   "author": "Makyra Kim",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^36.5.0"
+    "electron": "^36.5.0",
+    "electron-reload": "^2.0.0-alpha.1"
   }
 }
